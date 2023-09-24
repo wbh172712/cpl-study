@@ -1,0 +1,15 @@
+E:/codes/cpl-study/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/codes/cpl-study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-study/cmake-build-debug/0-intro/CMakeFiles/plus.dir
+E:/codes/cpl-study/cmake-build-debug/0-intro/CMakeFiles/guess.dir
+E:/codes/cpl-study/cmake-build-debug/0-intro/CMakeFiles/hello.dir
+E:/codes/cpl-study/cmake-build-debug/0-intro/CMakeFiles/edit_cache.dir
+E:/codes/cpl-study/cmake-build-debug/0-intro/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/circle.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/sphere.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/mol.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/admin.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/admin-scanf.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/admin-scanf-2.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
+E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir
