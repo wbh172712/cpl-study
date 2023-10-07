@@ -13,3 +13,13 @@ E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/admin-scanf.dir
 E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/admin-scanf-2.dir
 E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
 E:/codes/cpl-study/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/min-of-two.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/min-of-three.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/min-array.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/min-array-input.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/leap-if-else.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/leap-else-if.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/leap-elseif.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/leap.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/edit_cache.dir
+E:/codes/cpl-study/cmake-build-debug/2-if-for-array/CMakeFiles/rebuild_cache.dir
