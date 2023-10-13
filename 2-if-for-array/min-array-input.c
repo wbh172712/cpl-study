@@ -1,31 +1,20 @@
 //
-// Created by wbh17 on 2023/10/6.
+// Created by hfwei on 2023/10/6.
 //
+
 #include <stdio.h>
 
-#define NUM 5
-
 int main(void) {
-    int numbers[NUM] = { 0 };
+    int NUM;
+    scanf("%d", &NUM);
 
-    // int i = 0;
-    // &: address-of operator (numbers[i] is an lvalue)
-    for (int i = 0; i < NUM; i++) {
+    int numbers[NUM];
+    for (int i = 0; i < NUM; i++) { // int i = 0;变量i的作用域仅限于for(){}内部,since C99
         scanf("%d", &numbers[i]);
     }
 
-    // []: array subscripting operator
     int min = numbers[0];
-
-    // syntax + semantics
-    // syntax: for (init-clause; condition-expression; iteration-expression) loop-statement
-    // semantics: debug!!!
-    // (1): []
-    // (2): i < NUM: not i <= NUM (accessing out-of-bounds; 访问越界)
-    // (3): int i = 1; since C99 (declaration in for-loop); code in standard C library
-    for (int i = 1;
-         i < NUM;
-         i++) {
+    for (int i = 1; i < NUM; i++) { // int i = 1;
         if (numbers[i] < min) {
             min = numbers[i];
         }
