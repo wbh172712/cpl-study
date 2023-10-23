@@ -968,6 +968,133 @@ build 3-for-a-while/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 3-for-a-while/rebuild_cache: phony 3-for-a-while/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/cpl-study/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target game-of-life-chatgpt
+
+
+#############################################
+# Order-only phony target for game-of-life-chatgpt
+
+build cmake_object_order_depends_target_game-of-life-chatgpt: phony || 4-loops/CMakeFiles/game-of-life-chatgpt.dir
+
+build 4-loops/CMakeFiles/game-of-life-chatgpt.dir/game-of-life-chatgpt.c.obj: C_COMPILER__game-of-life-chatgpt_unscanned_Debug E$:/codes/cpl-study/4-loops/game-of-life-chatgpt.c || cmake_object_order_depends_target_game-of-life-chatgpt
+  DEP_FILE = 4-loops\CMakeFiles\game-of-life-chatgpt.dir\game-of-life-chatgpt.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\game-of-life-chatgpt.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\game-of-life-chatgpt.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target game-of-life-chatgpt
+
+
+#############################################
+# Link the executable 4-loops\game-of-life-chatgpt.exe
+
+build 4-loops/game-of-life-chatgpt.exe: C_EXECUTABLE_LINKER__game-of-life-chatgpt_Debug 4-loops/CMakeFiles/game-of-life-chatgpt.dir/game-of-life-chatgpt.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\game-of-life-chatgpt.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\game-of-life-chatgpt.exe
+  TARGET_IMPLIB = 4-loops\libgame-of-life-chatgpt.dll.a
+  TARGET_PDB = game-of-life-chatgpt.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target game-of-life
+
+
+#############################################
+# Order-only phony target for game-of-life
+
+build cmake_object_order_depends_target_game-of-life: phony || 4-loops/CMakeFiles/game-of-life.dir
+
+build 4-loops/CMakeFiles/game-of-life.dir/game-of-life.c.obj: C_COMPILER__game-of-life_unscanned_Debug E$:/codes/cpl-study/4-loops/game-of-life.c || cmake_object_order_depends_target_game-of-life
+  DEP_FILE = 4-loops\CMakeFiles\game-of-life.dir\game-of-life.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\game-of-life.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\game-of-life.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target game-of-life
+
+
+#############################################
+# Link the executable 4-loops\game-of-life.exe
+
+build 4-loops/game-of-life.exe: C_EXECUTABLE_LINKER__game-of-life_Debug 4-loops/CMakeFiles/game-of-life.dir/game-of-life.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\game-of-life.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\game-of-life.exe
+  TARGET_IMPLIB = 4-loops\libgame-of-life.dll.a
+  TARGET_PDB = game-of-life.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge
+
+
+#############################################
+# Order-only phony target for merge
+
+build cmake_object_order_depends_target_merge: phony || 4-loops/CMakeFiles/merge.dir
+
+build 4-loops/CMakeFiles/merge.dir/merge.c.obj: C_COMPILER__merge_unscanned_Debug E$:/codes/cpl-study/4-loops/merge.c || cmake_object_order_depends_target_merge
+  DEP_FILE = 4-loops\CMakeFiles\merge.dir\merge.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 4-loops\CMakeFiles\merge.dir
+  OBJECT_FILE_DIR = 4-loops\CMakeFiles\merge.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge
+
+
+#############################################
+# Link the executable 4-loops\merge.exe
+
+build 4-loops/merge.exe: C_EXECUTABLE_LINKER__merge_Debug 4-loops/CMakeFiles/merge.dir/merge.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 4-loops\CMakeFiles\merge.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-loops\merge.exe
+  TARGET_IMPLIB = 4-loops\libmerge.dll.a
+  TARGET_PDB = merge.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 4-loops/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-study\cmake-build-debug\4-loops && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 4-loops/edit_cache: phony 4-loops/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 4-loops/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\cpl-study\cmake-build-debug\4-loops && "E:\software\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\cpl-study -BE:\codes\cpl-study\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 4-loops/rebuild_cache: phony 4-loops/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build admin: phony 1-types-io/admin.exe
@@ -998,6 +1125,14 @@ build digits-while: phony 3-for-a-while/digits-while.exe
 
 build digits-while.exe: phony 3-for-a-while/digits-while.exe
 
+build game-of-life: phony 4-loops/game-of-life.exe
+
+build game-of-life-chatgpt: phony 4-loops/game-of-life-chatgpt.exe
+
+build game-of-life-chatgpt.exe: phony 4-loops/game-of-life-chatgpt.exe
+
+build game-of-life.exe: phony 4-loops/game-of-life.exe
+
 build guess: phony 0-intro/guess.exe
 
 build guess.exe: phony 0-intro/guess.exe
@@ -1021,6 +1156,10 @@ build leap-if-else: phony 2-if-for-array/leap-if-else.exe
 build leap-if-else.exe: phony 2-if-for-array/leap-if-else.exe
 
 build leap.exe: phony 2-if-for-array/leap.exe
+
+build merge: phony 4-loops/merge.exe
+
+build merge.exe: phony 4-loops/merge.exe
 
 build min-array: phony 2-if-for-array/min-array.exe
 
@@ -1074,7 +1213,7 @@ build stars.exe: phony 3-for-a-while/stars.exe
 #############################################
 # Folder: E:/codes/cpl-study/cmake-build-debug
 
-build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all
+build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all
 
 # =============================================================================
 
@@ -1105,20 +1244,27 @@ build 2-if-for-array/all: phony 2-if-for-array/min-of-two.exe 2-if-for-array/min
 build 3-for-a-while/all: phony 3-for-a-while/stars.exe 3-for-a-while/primes.exe 3-for-a-while/binary-search.exe 3-for-a-while/digits-while.exe 3-for-a-while/digits-do-while.exe 3-for-a-while/selection-sort.exe 3-for-a-while/palindrome.exe
 
 # =============================================================================
+
+#############################################
+# Folder: E:/codes/cpl-study/cmake-build-debug/4-loops
+
+build 4-loops/all: phony 4-loops/game-of-life-chatgpt.exe 4-loops/game-of-life.exe 4-loops/merge.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-study/0-intro/CMakeLists.txt E$:/codes/cpl-study/1-types-io/CMakeLists.txt E$:/codes/cpl-study/2-if-for-array/CMakeLists.txt E$:/codes/cpl-study/3-for-a-while/CMakeLists.txt E$:/codes/cpl-study/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-study/0-intro/CMakeLists.txt E$:/codes/cpl-study/1-types-io/CMakeLists.txt E$:/codes/cpl-study/2-if-for-array/CMakeLists.txt E$:/codes/cpl-study/3-for-a-while/CMakeLists.txt E$:/codes/cpl-study/4-loops/CMakeLists.txt E$:/codes/cpl-study/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-study/0-intro/CMakeLists.txt E$:/codes/cpl-study/1-types-io/CMakeLists.txt E$:/codes/cpl-study/2-if-for-array/CMakeLists.txt E$:/codes/cpl-study/3-for-a-while/CMakeLists.txt E$:/codes/cpl-study/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/codes/cpl-study/0-intro/CMakeLists.txt E$:/codes/cpl-study/1-types-io/CMakeLists.txt E$:/codes/cpl-study/2-if-for-array/CMakeLists.txt E$:/codes/cpl-study/3-for-a-while/CMakeLists.txt E$:/codes/cpl-study/4-loops/CMakeLists.txt E$:/codes/cpl-study/CMakeLists.txt E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/software/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

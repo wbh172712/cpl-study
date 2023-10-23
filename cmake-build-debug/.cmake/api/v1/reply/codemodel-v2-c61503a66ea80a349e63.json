@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -33,9 +34,9 @@
 					"source" : "0-intro",
 					"targetIndexes" : 
 					[
-						7,
-						8,
-						19
+						9,
+						10,
+						22
 					]
 				},
 				{
@@ -54,8 +55,8 @@
 						1,
 						2,
 						4,
-						17,
-						22
+						20,
+						25
 					]
 				},
 				{
@@ -70,14 +71,14 @@
 					"source" : "2-if-for-array",
 					"targetIndexes" : 
 					[
-						9,
-						10,
 						11,
 						12,
 						13,
 						14,
-						15,
-						16
+						16,
+						17,
+						18,
+						19
 					]
 				},
 				{
@@ -95,10 +96,27 @@
 						3,
 						5,
 						6,
-						18,
-						20,
 						21,
-						23
+						23,
+						24,
+						26
+					]
+				},
+				{
+					"build" : "4-loops",
+					"jsonFile" : "directory-4-loops-Debug-5c7f24df03c5c0467ec8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "4-loops",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						15
 					]
 				}
 			],
@@ -112,7 +130,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "2023_cpl",
 					"targetIndexes" : 
@@ -140,7 +159,10 @@
 						20,
 						21,
 						22,
-						23
+						23,
+						24,
+						25,
+						26
 					]
 				}
 			],
@@ -196,6 +218,20 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 5,
+					"id" : "game-of-life::@b89cdeb732e8a284e7d7",
+					"jsonFile" : "target-game-of-life-Debug-5d72d21870a8dbcf3fb4.json",
+					"name" : "game-of-life",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "game-of-life-chatgpt::@b89cdeb732e8a284e7d7",
+					"jsonFile" : "target-game-of-life-chatgpt-Debug-34cf9a81334f7944348e.json",
+					"name" : "game-of-life-chatgpt",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "guess::@53414a9831fb1dd599fc",
 					"jsonFile" : "target-guess-Debug-c793804189fcdabbb8d4.json",
@@ -235,6 +271,13 @@
 					"id" : "leap-if-else::@1877d974addea39212c3",
 					"jsonFile" : "target-leap-if-else-Debug-f35f95a1a2a793f3bb1f.json",
 					"name" : "leap-if-else",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "merge::@b89cdeb732e8a284e7d7",
+					"jsonFile" : "target-merge-Debug-26447e8efeea0e8beb71.json",
+					"name" : "merge",
 					"projectIndex" : 0
 				},
 				{
