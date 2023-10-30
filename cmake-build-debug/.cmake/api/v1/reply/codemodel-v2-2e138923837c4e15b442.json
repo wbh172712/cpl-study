@@ -12,7 +12,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -34,9 +35,9 @@
 					"source" : "0-intro",
 					"targetIndexes" : 
 					[
-						9,
-						10,
-						22
+						12,
+						14,
+						29
 					]
 				},
 				{
@@ -54,9 +55,9 @@
 						0,
 						1,
 						2,
-						4,
-						20,
-						25
+						5,
+						26,
+						35
 					]
 				},
 				{
@@ -71,14 +72,14 @@
 					"source" : "2-if-for-array",
 					"targetIndexes" : 
 					[
-						11,
-						12,
-						13,
-						14,
+						15,
 						16,
 						17,
-						18,
-						19
+						19,
+						22,
+						23,
+						24,
+						25
 					]
 				},
 				{
@@ -94,12 +95,12 @@
 					"targetIndexes" : 
 					[
 						3,
-						5,
 						6,
-						21,
-						23,
-						24,
-						26
+						7,
+						27,
+						30,
+						32,
+						36
 					]
 				},
 				{
@@ -114,9 +115,34 @@
 					"source" : "4-loops",
 					"targetIndexes" : 
 					[
-						7,
 						8,
-						15
+						9,
+						20
+					]
+				},
+				{
+					"build" : "5-function",
+					"jsonFile" : "directory-5-function-Debug-8fbde15b744d83f3ca08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "5-function",
+					"targetIndexes" : 
+					[
+						4,
+						10,
+						11,
+						13,
+						18,
+						21,
+						28,
+						31,
+						33,
+						34,
+						37
 					]
 				}
 			],
@@ -131,7 +157,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"name" : "2023_cpl",
 					"targetIndexes" : 
@@ -162,7 +189,18 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
 					]
 				}
 			],
@@ -194,6 +232,13 @@
 					"id" : "binary-search::@a95ac0ded7e648dc8f12",
 					"jsonFile" : "target-binary-search-Debug-f6d441dacf901a9334b7.json",
 					"name" : "binary-search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "binary-search-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-binary-search-func-Debug-114e352fe90968ba768d.json",
+					"name" : "binary-search-func",
 					"projectIndex" : 0
 				},
 				{
@@ -232,10 +277,31 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "game-of-life-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-game-of-life-func-Debug-6f4110f10b4f63db17b1.json",
+					"name" : "game-of-life-func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "game-of-life-transformed::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-game-of-life-transformed-Debug-f45b4f32f7dfc151acb2.json",
+					"name" : "game-of-life-transformed",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "guess::@53414a9831fb1dd599fc",
 					"jsonFile" : "target-guess-Debug-c793804189fcdabbb8d4.json",
 					"name" : "guess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "guess-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-guess-func-Debug-03dbfbaeb0c8aec09e0f.json",
+					"name" : "guess-func",
 					"projectIndex" : 0
 				},
 				{
@@ -267,6 +333,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "leap-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-leap-func-Debug-d1bbf0a2dceead0e4646.json",
+					"name" : "leap-func",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "leap-if-else::@1877d974addea39212c3",
 					"jsonFile" : "target-leap-if-else-Debug-f35f95a1a2a793f3bb1f.json",
@@ -278,6 +351,13 @@
 					"id" : "merge::@b89cdeb732e8a284e7d7",
 					"jsonFile" : "target-merge-Debug-26447e8efeea0e8beb71.json",
 					"name" : "merge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "merge-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-merge-func-Debug-f2708b7398646afc4913.json",
+					"name" : "merge-func",
 					"projectIndex" : 0
 				},
 				{
@@ -323,6 +403,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "palindrome-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-palindrome-func-Debug-ea0fb10d6bd864e5e40f.json",
+					"name" : "palindrome-func",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "plus::@53414a9831fb1dd599fc",
 					"jsonFile" : "target-plus-Debug-8b2ea65ea05ed4ce3534.json",
@@ -337,10 +424,31 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "primes-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-primes-func-Debug-451d9282e4290c833a89.json",
+					"name" : "primes-func",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
 					"id" : "selection-sort::@a95ac0ded7e648dc8f12",
 					"jsonFile" : "target-selection-sort-Debug-d8211b1c376a17ff7324.json",
 					"name" : "selection-sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "selection-sort-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-selection-sort-func-Debug-51f855d016fbaaac476a.json",
+					"name" : "selection-sort-func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "selection-sort-wrong-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-selection-sort-wrong-func-Debug-898f3d26829a40b26f7b.json",
+					"name" : "selection-sort-wrong-func",
 					"projectIndex" : 0
 				},
 				{
@@ -355,6 +463,13 @@
 					"id" : "stars::@a95ac0ded7e648dc8f12",
 					"jsonFile" : "target-stars-Debug-9f08d3fc4d484280926a.json",
 					"name" : "stars",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "stars-func::@18b7eb9d20db78c69f22",
+					"jsonFile" : "target-stars-func-Debug-f39954611f514abf46ad.json",
+					"name" : "stars-func",
 					"projectIndex" : 0
 				}
 			]
